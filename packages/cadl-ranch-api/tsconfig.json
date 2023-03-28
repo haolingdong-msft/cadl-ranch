@@ -2,11 +2,11 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "dist",
-    "tsBuildInfoFile": "temp/.tsbuildinfo"
+    "outDir": "dist"
   },
   "include": ["src/**/*.ts", "test/**/*.ts"],
   "ts-node": {
-    "esm": true
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
   }
 }
