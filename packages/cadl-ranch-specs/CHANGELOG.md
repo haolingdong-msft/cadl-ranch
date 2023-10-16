@@ -1,5 +1,12 @@
 # @azure-tools/cadl-ranch-specs
 
+## 0.24.1
+
+### Patch Changes
+
+- 226169c: Use pollingOperation to customize non-standard LRO
+- 41be77d: Remove pollingOperation from standard LRO
+
 ## 0.24.0
 
 ### Minor Changes
